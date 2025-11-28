@@ -12,6 +12,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    font-family: "Roboto", sans-serif;
 }
 
 .caixa-video {
@@ -44,6 +45,8 @@ section {
     max-width: 1200px;
 }
 
+
+
 .header {
     position: fixed;
     top: 0;
@@ -67,14 +70,16 @@ section {
     height: 50px;
 }
 
-.header section nav {
-    margin: 0;
+.header section nav a {
+    margin: 10px;
     font-size: 1.8rem;
     color: white;
+    transition: 0.3s linear;
 }
 
-.header section nav a {
-    color: white;
-    text-decoration: none;
+.header section nav a:hover {
+    color: var(--main-color);
+    border-bottom: 0.1rem solid var(--main-color);
+    padding-bottom: 0.4;
+    transition: 0.3s;
 }
-
