@@ -1,10 +1,19 @@
+:root {
+    font-size: 10px;
+    --main-color: #d3ad7f;
+    --black: #131313;
+    --bg: #010103;
+    --border: 0.1rem solid rgba(250, 250, 250, 0.3);
+
+}
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.caixa-video{
+.caixa-video {
     position: fixed;
     z-index: -1;
     width: 100%;
@@ -12,7 +21,7 @@
 
 }
 
-.caixa-video video{
+.caixa-video video {
     min-height: 100%;
     min-width: 100%;
     position: fixed;
@@ -28,16 +37,16 @@
     background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
 }
 
-.header{
+.header {
     position: fixed;
     top: 0;
     left: 0;
     z-index: 2;
-    background-color: #000;
-    border-bottom: 0.1rem solid rgba(250, 250, 250, 0,3);
+    background-color:var(--bg);
+    border-bottom: var(--border);
 }
 
-.header section{
+.header section {
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -45,3 +54,19 @@
     padding: 1.5rem 0;
     position: relative;
 }
+
+.header section a img {
+    height: 50px;
+}
+
+.header section nav {
+    margin: 0;
+    font-size: 1.8rem;
+    color: white;
+}
+
+.header section nav a {
+    color: white;
+    text-decoration: none;
+}
+
