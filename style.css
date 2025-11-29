@@ -108,7 +108,7 @@ section {
     padding: 1rem 0;
     line-height: 1.8;
 }
-.caixa-principal div a {
+.botao-link {
     background-color: var(--main-color);
     cursor: pointer;
     display: inline-block;
@@ -160,16 +160,14 @@ section {
 .caixa-sobre .sobre-container .sobre-texto h3 {
     font-size: 3rem;
     color: white;
-    padding-bottom: 1rem;
+   
 }
 
 .caixa-sobre .sobre-container .sobre-texto p {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
+    font-weight: lighter;
     color: white;
     line-height: 1.8;
-    padding-bottom: 1rem;
+    padding: 1rem 0;
 }
 
-.caixa-sobre .sobre-container .sobre-texto a {
-    padding-bottom: 0;
-}
