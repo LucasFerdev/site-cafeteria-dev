@@ -124,3 +124,52 @@ section {
     letter-spacing: 0.1rem;
 }
 
+.caixa-sobre h2 {
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 3,5rem;
+    font-size: 4rem;
+}
+
+.caixa-sobre h2 span {
+    color: var(--main-color);
+}
+
+.caixa-sobre .sobre-container {
+    display: flex;
+    align-items: center;
+    background-color: var(--black);
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.caixa-sobre .sobre-container .sobre-imagem {
+    flex: 1 1 45rem;
+}
+
+.caixa-sobre .sobre-container .sobre-imagem img {
+    width: 100%;
+}
+
+.caixa-sobre .sobre-container .sobre-texto {
+    flex: 1 1 45rem;
+    padding: 2rem;
+}
+
+.caixa-sobre .sobre-container .sobre-texto h3 {
+    font-size: 3rem;
+    color: white;
+    padding-bottom: 1rem;
+}
+
+.caixa-sobre .sobre-container .sobre-texto p {
+    font-size: 1.6rem;
+    color: white;
+    line-height: 1.8;
+    padding-bottom: 1rem;
+}
+
+.caixa-sobre .sobre-container .sobre-texto a {
+    padding-bottom: 0;
+}
